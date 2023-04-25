@@ -4,25 +4,27 @@ import { CardCharacter } from '../CardCharacter';
 
 
 type CharacterListProps = {
-	characters:any[]
-	
+    characters: any[]
+
 };
 
 
-export const CharacterList = ( props: CharacterListProps): ReactElement => {
-const { characters } =props;
+export const CharacterList = (props: CharacterListProps): ReactElement => {
+    const { characters } = props;
 
-	return (
-		
-		<div className="card-columns animate__animated animate__fadeIn">
-            {  characters.map((character:any) =>
-                <CardCharacter
-                    key={character._id}
-                    character={character}
-                />
+    return (
+
+        <div className="row row-cols-1 row-cols-md-3 g-4">
+            {characters.map((character: any) =>
+                <div className="col">
+                    <CardCharacter
+                        key={character._id}
+                        character={character}
+                    />
+                </div>
             )}
         </div>
-	);
+    );
 }
 
 

@@ -4,6 +4,7 @@ import { Inter } from '@next/font/google'
 import { Navbar } from '../features/tranversal/NavBar/index';
 import { Characters } from '../features/characters/components';
 import { useFetch } from '../hooks/useFetch';
+import { Spinner } from '../features/tranversal/Spinner/index';
 
 
 
@@ -29,7 +30,7 @@ export default function Home() {
           {!isLoading && data ?
              <Characters data={data.data } />
              :
-            <h6>spiner</h6>
+            <Spinner/>
           }
         </div>
       </main>
