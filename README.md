@@ -2,7 +2,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+primero, Agregué en la raíz del proyecto una archivo .env con una variable de entorno con el siguiente nombre NEXT_PUBLIC_API_URL, Aquí deberá poner la dirección del api para este ejemplo utilice https://api.disneyapi.dev, luego podrá ejecutar el proyecto con 
+
+run the development server:
 
 ```bash
 npm run dev
