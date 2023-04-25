@@ -28,5 +28,5 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 ![image](https://user-images.githubusercontent.com/66500440/234187923-48269c00-0fea-4c6b-a3c4-b6f8a634fa94.png)
 
 ## Detalle de elementos
-![image](https://user-images.githubusercontent.com/66500440/234189447-a68ed66a-9997-4fc6-817c-6cd56207ae0e.png)
+![image](https://user-images.githubusercontent.com/66500440/234191089-75f91cd0-891a-4186-9a78-35b5c8d884ae.png)
 
